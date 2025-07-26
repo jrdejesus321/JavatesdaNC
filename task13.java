@@ -36,7 +36,17 @@ public class task13 {
     }
 
     public static void main(String[] args) {
-        Car myCar = new Car("Toyota", "Camry", 2022, 4);
+        Car myCar = new Car("LIGHT UTILITY VEHICLE", "High Mobility Multipurpose Wheeled Vehicle (HMMWV)", 2010, 4);
         myCar.displayDetails();
+
+        Car myCar1 = new Car("Main BATTLE TANK", "M1A2 SEPv3", 2005, 2);
+        myCar1.displayDetails();
+
+        Car myCar2 = new Car("FORD", "RANGER RAPTOR", 2025, 4);
+        myCar2.displayDetails();
+
+        Car myCar3 = new Car("TOYOTA", "VELOZ", 2025, 4);
+        myCar3.displayDetails();
+        
     }
 }
